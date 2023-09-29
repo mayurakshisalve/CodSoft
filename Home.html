@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayurakshi Salve- Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Portfolio.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Mayurakshi's Portfolio</div>
+      <div class="right"></div>
+      <ul>
+        <li><a href="/">Home</a> </li>            
+        <li><a href="/">About</a> </li>
+        <li><a href="/">Services</a> </li>
+        <li><a href="/">Projects</a> </li>
+        <li><a href="/">Contact me</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple">Mayurakshi</span>
+        <div>
+          and I am a passionate
+        </div>
+        <span id="element"></span>
+      </div>
+      <div  class="rightSection">
+      <img src="ms.png">  
+      </div>
+   </section>
+   <hr>
+
+   <section class="secondSection alternateSection">
+    <div class="rightSection">
+      <h1>Past Experience</h1>
+      <ul>
+        <li>
+          <h2>Frontend Developer Intern</h2>
+          <p>Internship at CodSoft</p>
+          <p>August 2023 - September 2023</p>
+          <p>I had a ameazing experience with codsoft during this internship</p>
+        </li>
+        <li>
+          <h2>Backend Developer</h2>
+          <p>Internship at CodSoft</p>
+          <p>August 2023 - September 2023</p>
+          <p>I had a ameazing experience with codsoft during this internship</p>
+        </li>
+      </ul>
+    </div>
+    
+  </section>
+
+
+  <!-- Third Section - Left (Alternate) -->
+  <section class="thirdSection alternateSection">
+    <div class="leftSection">
+      <h1>Projects</h1>
+      <ul>
+        <li>
+          <h2>Online Shopping  Website</h2>
+          <p>A fully functional and responsive Shopping website developed using React Js and Spring boot</p>
+        </li>
+        <li>
+          <h2>Money Manangement App</h2>
+          <p>A app which helps user to manage thir expenses</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Fourth Section - Right (Alternate) -->
+  <section class="about">
+    <div class="image">
+      <div class="glowing-circle">
+        <img src="mayuS.png.jpg" alt="Mayurakshi's Image" >>
+      </div>
+    </div>
+    <div class="aboutme">
+      <h1>About Me</h1>
+      <p>Hello! I'm Mayurakshi Salve, an Engineer with a passion for web development and programming. I hold a B.Tech degree from MIT Academy of Engineering, Pune.</p>
+      <p>I have a strong command over Java, HTML, CSS, React, Spring Boot, C++, and Python. My journey in the field of technology has been filled with exciting projects, including the development of an E-commerce website for tours, ensuring a seamless user experience and smooth transactions.</p>
+      <p>Aside from my technical expertise, I find joy in teaching and helping others. I believe in striving for perfection and continuous learning to deliver exceptional solutions.</p>
+      <p>If you are interested in collaborating on exciting projects or have any inquiries, feel free to get in touch with me. Let's connect and create something amazing together!</p>    </div>
+  </section>
+  
+
+  <hr>
+
+  <section class="fifthSection alternateSection">
+    <div class="leftSection">
+      <h1>Contact Me</h1>
+      <table>
+        <tr>
+          <td>Your Name:</td>
+          <td><input type="text" id="name" placeholder="Tony Stark"></td>
+        </tr>
+        <tr>
+          <td>Your Email:</td>
+          <td><input type="email" id="email" placeholder="tony@example.com"></td>
+        </tr>
+        <tr>
+          <td>Subject:</td>
+          <td><input type="text" id="subject" placeholder="Regarding Portfolio"></td>
+        </tr>
+        <tr>
+          <td>Message:</td>
+          <td><textarea id="message" placeholder="Your message here"></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit" id="sendButton">Send Email</button></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <hr>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2023 Mayurakshi Salve - Portfolio. All rights reserved.</p>
+      <p>Email: mayurakshisalve114@gmail.com | Phone: +91 1234567890</p>
+    </div>
+  </footer>
+
+  
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Frontend Developer', 'Backend Developer','Blogger'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
